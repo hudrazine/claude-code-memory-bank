@@ -45,9 +45,24 @@ When working with Claude Code, each new session starts with a fresh context. Thi
 
 - Claude Code (latest version recommended)
 - A project where you want to implement memory management
-- Basic understanding of markdown
 
 ### Installation
+
+#### Required Files
+
+The Memory Bank system consists of the following essential files:
+
+**Core System (Required)**
+- `.claude/claude-memory-bank.md` - The main Memory Bank system documentation
+
+**Custom Commands (Choose based on your needs)**
+- `.claude/commands/init-memory-bank.md` - Initialize Memory Bank structure (can be deleted after initialization)
+- `.claude/commands/workflow/understand.md` - Analyze project context
+- `.claude/commands/workflow/plan.md` - Create implementation strategies
+- `.claude/commands/workflow/execute.md` - Execute tasks systematically
+- `.claude/commands/workflow/update-memory.md` - Update Memory Bank files
+
+#### Installation Steps
 
 1. **Clone this repository** or download the files you need:
    ```bash
@@ -146,7 +161,6 @@ claude-code-memory-bank/
     ├── claude-memory-bank.md    # Core system documentation
     └── commands/                # Custom slash commands
         ├── init-memory-bank.md # Quick Memory Bank initialization
-        ├── commit.md           # Git commit workflow
         └── workflow/           # Memory Bank workflows
             ├── understand.md   # Context analysis
             ├── plan.md        # Task planning
@@ -156,9 +170,25 @@ claude-code-memory-bank/
 
 ### Key Files Explained
 
-- **`.claude/claude-memory-bank.md`**: The core system documentation that defines how Memory Bank works
-- **`.claude/commands/workflow/*.md`**: Custom slash commands implementing the Memory Bank workflow
-- **`references/`**: Documentation about Claude Code features and the original Cline Memory Bank
+#### Core System File
+**`.claude/claude-memory-bank.md`**
+- The central documentation defining the Memory Bank system's architecture and principles
+- Specifies how the system operates, workflow phases, and documentation update triggers
+- Explains the hierarchical relationship between Memory Bank files (projectbrief.md, productContext.md, etc.)
+- Serves as the blueprint for implementing Memory Bank in other projects
+
+#### Initialization Command
+**`.claude/commands/init-memory-bank.md`**
+- Custom command to initialize Memory Bank structure in new projects
+- Analyzes the project and adaptively creates Memory Bank files based on detected technologies
+- Can be deleted after initialization (as noted in Installation section)
+
+#### Workflow Commands
+**`.claude/commands/workflow/`** directory contains four phase commands implementing the Memory Bank workflow:
+- **`understand.md`**: Loads Memory Bank context and performs initial task analysis
+- **`plan.md`**: Decomposes tasks and creates detailed implementation strategies
+- **`execute.md`**: Executes tasks based on plans with systematic quality checks
+- **`update-memory.md`**: Updates Memory Bank documentation after task completion
 
 ## How It Works
 
@@ -198,7 +228,6 @@ flowchart TD
 ### Additional Commands
 
 - `/init-memory-bank` - Initialize Memory Bank structure for new projects
-- `/commit` - Structured git commit workflow
 
 Commands can be customized by editing the files in `.claude/commands/`.
 
