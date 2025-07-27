@@ -1,104 +1,213 @@
 ---
-description: Initialize Memory Bank structure for a new project
+description: Initialize Memory Bank structure with metacognitive awareness and self-reflection
 ---
 
-# Initialize Memory Bank System
+# Initialize Memory Bank System with Metacognitive Flow
 
 ## Your Task
 
-Initialize the Memory Bank system adaptively based on the current project state.
+Think deeply about the project context and initialize the Memory Bank system using a metacognitive approach that ensures profound understanding and thoughtful implementation.
 
-### 1. **Comprehensive Project Analysis**
+### Initial Setup: Task Tracking
 
-Use the Task tool to analyze the project with the following prompt:
+Use the TodoWrite tool to create a structured task list for this complex initialization process:
 
-"Analyze the current project directory and provide a detailed report including:
-1. Current working directory path
-2. Memory Bank directory status (exists/not exists)
-3. List of existing Memory Bank files if any
-4. Project type detection (look for package.json, requirements.txt, go.mod, Cargo.toml, pom.xml, build.gradle, .csproj, README.md, etc.)
-5. Main technologies and frameworks detected
-6. Project structure overview
-7. Existing documentation files
-8. Any other relevant project characteristics
+```
+todos:
+- Stage 1: Understanding and Context Recognition (pending)
+- Stage 2: Preliminary Judgment Formation (pending)
+- Stage 3: Critical Evaluation and Deep Analysis (pending)
+- Stage 4: Adaptive Strategy with Confidence Scoring (pending)
+- Stage 5: Reflective Implementation (pending)
+- Stage 6: Final Metacognitive Assessment (pending)
+```
 
-Please provide a structured analysis that will help determine the best initialization strategy for the Memory Bank system."
+Update each task status as you progress:
+- Mark as `in_progress` when starting a stage
+- Mark as `completed` only when fully satisfied with that stage
+- Add sub-tasks if a stage reveals complex requirements
 
-### 2. **Adaptive Initialization Strategy**
+### Stage 1: Understanding and Context Recognition
 
-Based on the Task tool's analysis results:
+**Metacognitive Understanding Phase**
+Before any action, deeply understand:
+- What is the true purpose of this initialization?
+- What assumptions am I making about this project?
+- What context clues should I be aware of?
 
-   **If Memory Bank doesn't exist:**
-   - Create fresh Memory Bank structure
-   - Use detected project information for initial content
-   - Guide user through any missing information
+Use the Task tool with this enhanced prompt:
 
-   **If Memory Bank partially exists:**
-   - Preserve all existing files
-   - Create only missing files
-   - If `projectbrief.md` exists, read and use it to inform other files
+"Perform a metacognitive analysis of the current project:
+1. Initial observations about project state
+2. What this tells me about the project's nature
+3. What I might be assuming incorrectly
+4. Alternative interpretations of the project structure
+5. Confidence level in my initial assessment (0-100%)
 
-   **If projectbrief.md already exists:**
-   - Read and parse its content thoroughly
-   - Use it as the foundation for other files
-   - Skip redundant questions
-   - Maintain consistency with existing documentation
+Then provide standard analysis:
+- Current working directory path
+- Memory Bank directory status
+- Project type detection (package.json, requirements.txt, etc.)
+- Technologies and frameworks
+- Project structure overview
+- Existing documentation"
 
-### 3. **Intelligent Information Gathering**
+**Self-Reflection Questions**:
+- Am I seeing the full picture?
+- What might I be missing?
+- How does my interpretation align with reality?
 
-   **From the Task tool's analysis:**
-   - Extract project name from configuration files
-   - Parse README.md for project description
-   - Identify technologies from dependency files
-   - Understand repository structure
+### Stage 2: Preliminary Judgment Formation
 
-   **Interactive refinement:**
-   - Present detected information to user for confirmation
-   - Ask only for missing critical information
-   - Clarify project goals and requirements
-   - Respect user's time by minimizing questions
+Based on initial understanding, form hypotheses:
+- What type of Memory Bank would best serve this project?
+- What initialization approach seems most appropriate?
+- What are my intuitions telling me?
 
-### 4. **Create/Update Memory Bank Files**
+**Self-Reflection Prompts**:
+- Why do I think this approach is best?
+- What biases might be influencing my judgment?
+- What would an alternative perspective suggest?
+- How confident am I in this preliminary judgment? (0-100%)
 
-   Create these files (only if they don't exist):
-   - `memory-bank/projectbrief.md` - Foundation document with project overview
-   - `memory-bank/productContext.md` - Product vision, problems solved, user goals
-   - `memory-bank/activeContext.md` - Current state, recent changes, next steps
-   - `memory-bank/systemPatterns.md` - Architecture, design patterns, key decisions
-   - `memory-bank/techContext.md` - Technology stack, setup, dependencies
-   - `memory-bank/progress.md` - Development status, completed features, roadmap
+### Stage 3: Critical Evaluation and Deep Analysis
 
-   For each file:
-   - Check existence before creating
-   - Populate with meaningful content from analysis
-   - Include helpful section comments
-   - Maintain consistency across all files
+Use the Task tool for comprehensive analysis with critical lens:
 
-### 5. **Finalize Setup**
-   - Display comprehensive summary:
-     * Files created vs preserved
-     * Detected project information
-     * Key decisions made during initialization
-   - Provide contextual next steps:
-     * For new projects: suggest `/workflow:understand` to explore
-     * For existing projects: suggest `/workflow:plan` for next feature
-     * For updated Memory Banks: suggest reviewing changes
-   - Confirm Memory Bank is ready for use
+"Critically analyze the project with these considerations:
+1. Standard project analysis (files, structure, technologies)
+2. What contradicts my initial assumptions?
+3. What edge cases or special considerations exist?
+4. How confident am I in each finding (0-100%)?
+5. What information am I missing that could change my approach?
+6. What patterns do I see that might not be obvious?"
 
-## Important Implementation Guidelines
+**Metacognitive Checkpoints**:
+- Are my interpretations consistent?
+- What evidence supports or refutes my approach?
+- How would this look from a beginner's perspective?
+- How would an expert view this differently?
 
-- **Preservation First**: Never overwrite existing files without explicit user permission
-- **Intelligent Defaults**: Use Task tool analysis to provide smart defaults
-- **Consistency**: If projectbrief.md exists, all other files must align with it
-- **User Control**: Always show what will be done before doing it
-- **Platform Agnostic**: Task tool ensures cross-platform compatibility
-- **Meaningful Content**: No empty templates - populate with real project information
+### Stage 4: Adaptive Strategy with Confidence Scoring
 
-## Success Criteria
+Based on critical evaluation, determine strategy with confidence levels:
 
-- Task tool provides comprehensive project analysis
-- Existing Memory Bank files are preserved and respected
-- New files contain project-specific, meaningful content
-- User effort is minimized through intelligent detection
-- The Memory Bank accurately reflects project reality
-- Clear guidance provided for next steps
+```
+Strategy Decision Tree:
+├── Fresh Installation (Confidence: X%)
+│   └── Why: [Metacognitive reasoning]
+├── Partial Update (Confidence: Y%)
+│   └── Why: [Metacognitive reasoning]
+└── Full Preservation (Confidence: Z%)
+    └── Why: [Metacognitive reasoning]
+```
+
+**Decision Factors**:
+- Existing Memory Bank state
+- Project complexity and maturity
+- User's explicit needs
+- Confidence in understanding
+
+### Stage 5: Reflective Implementation
+
+For each Memory Bank file creation:
+
+1. **Pre-creation reflection**: 
+   - Why is this file necessary?
+   - What purpose will it serve?
+   - How confident am I it's needed? (0-100%)
+
+2. **Content consideration**:
+   - What makes this content meaningful?
+   - How does it connect to other files?
+   - What future value will it provide?
+
+3. **Implementation**:
+   - `memory-bank/projectbrief.md` - Foundation document
+   - `memory-bank/productContext.md` - Product vision and goals
+   - `memory-bank/activeContext.md` - Current state and focus
+   - `memory-bank/systemPatterns.md` - Architecture decisions
+   - `memory-bank/techContext.md` - Technology details
+   - `memory-bank/progress.md` - Development status
+
+4. **Post-creation validation**:
+   - Does this achieve the intended purpose?
+   - What could be improved?
+   - Confidence in this file: (0-100%)
+
+### Stage 6: Final Metacognitive Assessment
+
+Complete the initialization with comprehensive self-evaluation:
+
+**Overall Assessment**:
+- Overall confidence in the initialization (0-100%)
+- What went well and why?
+- What could have been done differently?
+- What learnings will inform future initializations?
+- Which decisions am I least/most confident about?
+
+**Summary Display**:
+- Files created vs preserved
+- Confidence levels for each decision
+- Key metacognitive insights gained
+- Areas of uncertainty identified
+
+**Contextual Next Steps with Reasoning**:
+- For new projects: `/workflow:understand` (Why: Establishes deep context)
+- For existing projects: `/workflow:plan` (Why: Builds on current state)
+- For updated Memory Banks: Review changes (Why: Ensures accuracy)
+
+**Final Reflection**:
+"What did I learn about this project that wasn't immediately obvious?"
+
+## Enhanced Implementation Patterns
+
+### Pattern 1: Assumption Validation Loop
+```
+Assumption → Evidence Check → Validation/Refutation → Adjusted Approach
+```
+
+### Pattern 2: Multi-Perspective Analysis
+```
+Technical Perspective: How does the code structure inform initialization?
+User Perspective: What would the developer expect?
+Future Perspective: How will this scale as the project grows?
+Alternative Perspective: What would a different approach reveal?
+```
+
+### Pattern 3: Confidence-Weighted Decisions
+```
+High Confidence (80-100%): Proceed with implementation
+Medium Confidence (50-79%): Seek additional validation
+Low Confidence (<50%): Consider alternative approaches
+```
+
+## Important Metacognitive Guidelines
+
+- **Think Before Acting**: Every action should follow reflection
+- **Question Assumptions**: Continuously validate initial judgments
+- **Document Reasoning**: Include "why" for every decision
+- **Embrace Uncertainty**: Low confidence is valuable information
+- **Learn from Process**: Each initialization improves the next
+- **Preserve with Purpose**: Understand why existing content matters
+
+## Success Criteria with Metacognitive Metrics
+
+- **Analysis Quality**: Task tool provides multi-layered analysis with confidence scores
+- **Decision Transparency**: Each decision includes "why" reasoning
+- **Alternative Consideration**: Multiple approaches evaluated and documented
+- **Confidence Calibration**: Confidence levels accurately reflect certainty
+- **Preservation Intelligence**: Existing content understood and respected
+- **Content Meaningfulness**: Generated content reflects deep understanding
+- **User Alignment**: Initialization matches user's mental model
+- **Future Readiness**: Setup anticipates project evolution
+- **Learning Capture**: Process insights documented for improvement
+
+## Metacognitive Reflection
+
+This enhanced initialization process transforms a mechanical task into a thoughtful, self-aware system that:
+- Understands not just what to do, but why
+- Questions its own assumptions
+- Learns from each initialization
+- Provides transparency through confidence scoring
+- Creates more meaningful and useful Memory Banks
